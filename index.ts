@@ -36,7 +36,7 @@ connection.query(
 //You can use the query method to execute the SQL statement and pass the updated data as an object.
 
 connection.query(
-    "UPDATE customers SET customerName = 'Stephanie' WHERE customerNumber = 510",
+    "UPDATE customers SET customerName = 'StephanieR2H' WHERE customerNumber = 510",
     function (err, result) {
       if (err) throw err;
       console.log(" record(s) updated");
